@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
@@ -12,16 +13,19 @@
 </head>
 
 <body>
+
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-success  ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"> Plantyta </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon">
+                </span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
 
                     <!-- About us line item -->
                     <li class="nav-item">
@@ -65,67 +69,145 @@
                 </ul>
 
 
-                <form class="d-flex">
+                <!-- <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-light" type="submit">Search</button>
-                </form>
+                </form> -->
             </div>
         </div>
     </nav>
 
-    <div class="container">
-        <div class="row gx-5 gy-5">
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="8biticon.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Price</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
+    <div class="position-relative background">
+        <!-- <div class="container-fluid background-holder">
+            <div class="row h-100">
+                <div class="col-md-6 bg-primary">
+                   
+                </div>
+                <div class="col-md-6 bg-warning">
+                    
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="8biticon.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Price</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
+        </div> -->
+
+        <div class="container-fluid">
+            <div class="row text-center">
+                <section class="col-md-6 bg-primary">
+                    <h1>left content</h1>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget mauris ut enim scelerisque
+                    sollicitudin in nec nisl. Quisque arcu arcu, bibendum id nunc sit amet, auctor bibendum tellus. Sed
+                    non scelerisque nulla. Sed pharetra lacus sapien, et condimentum
+                    ante condimentum non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                    inceptos himenaeos. Fusce magna lorem, lacinia congue varius blandit, facilisis quis nulla. Maecenas
+                    eu finibus tortor, sed volutpat justo. Fusce pulvinar
+                </section>
+                <section class="col-md-6 background-picture ">
+                    <h1>right content</h1>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget mauris ut enim scelerisque
+                    sollicitudin in nec nisl. Quisque arcu arcu, bibendum id nunc sit amet, auctor bibendum tellus. diam
+                    at placerat consectetur. Aliquam nec nisl luctus, imperdiet
+                    dolor non, feugiat ligula.
+                </section>
             </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="8biticon.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Price</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+
+
+
+        <div class="container-fluid">
+            <div class="row text-center bg-warning">
+
+                <section class="position-relative">
+                    <div class="content position-relative">
+                        <h1> center content</h1>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget mauris ut enim
+                            scelerisque
+                            sollicitudin in nec nisl. Quisque arcu arcu, bibendum id nunc sit amet, auctor bibendum
+                            tellus.
+                            Sed
+                            non scelerisque nulla. Sed pharetra lacus sapien, et condimentum
+                            ante condimentum non. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+                            per
+                            inceptos himenaeos. Fusce magna lorem, lacinia congue varius blandit, facilisis quis nulla.
+                            Maecenas
+                            eu finibus tortor, sed volutpat justo. Fusce pulvinar
+                        </p>
                     </div>
-                </div>
+
+                    <div class="background-picture-half position-absolute ">   
+                    </div>
+
+                </section>
             </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="8biticon.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Price</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+
+
+        <div class="container-fluid">
+            <div class="row text-center">
+                <section class="col-md-6 bg-secondary">
+                    <h1>left content</h1>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget mauris ut enim scelerisque
+                    sollicitudin in nec nisl. Quisque arcu arcu, bibendum id nunc sit amet, auctor bibendum tellus. Sed
+                    non scelerisque nulla. Sed pharetra lacus sapien, et condimentum
+                    ante condimentum non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                    inceptos himenaeos. Fusce magna lorem, lacinia congue varius blandit, facilisis quis nulla. Maecenas
+                    eu finibus tortor, sed volutpat justo. Fusce pulvinar
+                </section>
+                <section class="col-md-6 background-picture">
+                    <h1>right content</h1>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget mauris ut enim scelerisque
+                    sollicitudin in nec nisl. Quisque arcu arcu, bibendum id nunc sit amet, auctor bibendum tellus. diam
+                    at placerat consectetur. Aliquam nec nisl luctus, imperdiet
+                    dolor non, feugiat ligula.
+                </section>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row text-center bg-warning">
+
+                <section class="position-relative">
+                    <div class="content position-relative">
+                        <h1> center content</h1>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget mauris ut enim
+                            scelerisque
+                            sollicitudin in nec nisl. Quisque arcu arcu, bibendum id nunc sit amet, auctor bibendum
+                            tellus.
+                            Sed
+                            non scelerisque nulla. Sed pharetra lacus sapien, et condimentum
+                            ante condimentum non. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+                            per
+                            inceptos himenaeos. Fusce magna lorem, lacinia congue varius blandit, facilisis quis nulla.
+                            Maecenas
+                            eu finibus tortor, sed volutpat justo. Fusce pulvinar
+                        </p>
                     </div>
-                </div>
+
+                    <div class="background-picture-half position-absolute ">   
+                    </div>
+
+                </section>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row text-center">
+                <section class="col-md-6 bg-danger">
+                    <h1>left content</h1>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget mauris ut enim scelerisque
+                    sollicitudin in nec nisl. Quisque arcu arcu, bibendum id nunc sit amet, auctor bibendum tellus. Sed
+                    non scelerisque nulla. Sed pharetra lacus sapien, et condimentum
+                    ante condimentum non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                    inceptos himenaeos. Fusce magna lorem, lacinia congue varius blandit, facilisis quis nulla. Maecenas
+                    eu finibus tortor, sed volutpat justo. Fusce pulvinar
+                </section>
+                <section class="col-md-6 background-picture">
+                    <h1>right content</h1>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget mauris ut enim scelerisque
+                    sollicitudin in nec nisl. Quisque arcu arcu, bibendum id nunc sit amet, auctor bibendum tellus. diam
+                    at placerat consectetur. Aliquam nec nisl luctus, imperdiet
+                    dolor non, feugiat ligula.
+                </section>
             </div>
         </div>
     </div>
-
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
